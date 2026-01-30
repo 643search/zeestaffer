@@ -42,7 +42,7 @@ function AnimatedPrice({
 
 const roles = [
   "Executive Assistant",
-  "Customer Support Specialist",
+  "Customer Support Rep",
   "Sales Development Rep",
   "Marketing Coordinator",
   "Bookkeeper",
@@ -77,7 +77,7 @@ function RoleTicker() {
           <AnimatePresence mode="wait">
             <motion.span
               key={roles[index]}
-              className="inline-block text-zee-heading whitespace-nowrap"
+              className="inline-block text-zee-heading"
               initial={{ y: "110%", opacity: 0 }}
               animate={{ y: "0%", opacity: 1 }}
               exit={{ y: "-110%", opacity: 0 }}
@@ -130,7 +130,7 @@ export default function HomePage() {
 
           {/* Heading */}
           <motion.h1
-            className="text-4xl md:text-5xl lg:text-[4.25rem] font-medium text-zee-heading leading-[1.1] tracking-tight max-w-4xl"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-[4.25rem] font-medium text-zee-heading leading-[1.1] tracking-tight max-w-4xl"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}

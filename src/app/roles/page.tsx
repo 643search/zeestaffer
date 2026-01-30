@@ -79,7 +79,7 @@ export default function RolesPage() {
       <section className="pt-32 pb-20 md:pt-40 md:pb-28">
         <div className="container-custom">
           <motion.h1
-            className="text-4xl md:text-5xl lg:text-[4.5rem] font-medium text-zee-heading tracking-tight mb-6 max-w-4xl"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-[4.5rem] font-medium text-zee-heading tracking-tight mb-6 max-w-4xl"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
           >
